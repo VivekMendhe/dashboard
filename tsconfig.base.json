@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", "module": "ESNext", "moduleResolution": "bundler", "strict": true,
+    "jsx": "react-jsx", "skipLibCheck": true, "baseUrl": ".",
+    "paths": {
+      "@dashboard-generator/core": ["packages/core/src/index.ts"],
+      "@dashboard-generator/theme": ["packages/theme/src/index.ts"],
+      "@dashboard-generator/datasource": ["packages/datasource/src/index.ts"],
+      "@dashboard-generator/filters": ["packages/filters/src/index.ts"],
+      "@dashboard-generator/layout": ["packages/layout/src/index.ts"],
+      "@dashboard-generator/widgets": ["packages/widgets/src/index.ts"],
+      "@dashboard-generator/react": ["packages/renderer/src/index.ts"]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "dashboard-generator",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "npm@11.4.2",
+  "scripts": {
+    "dev": "nx serve playground",
+    "build": "nx run-many -t build",
+    "test": "nx run-many -t test",
+    "lint": "nx run-many -t lint"
+  },
+  "devDependencies": {
+    "@nx/js": "23.0.2",
+    "@nx/react": "23.0.2",
+    "@nx/vite": "23.0.2",
+    "@types/react": "19.1.8",
+    "@types/react-dom": "19.1.6",
+    "@vitejs/plugin-react": "latest",
+    "nx": "23.0.2",
+    "typescript": "~5.8.3",
+    "vite": "latest",
+    "vitest": "latest"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "recharts": "^2.15.4",
+    "zustand": "^5.0.5"
+  }
+}
