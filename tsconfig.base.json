@@ -9,7 +9,8 @@
       "@dashboard-generator/filters": ["packages/filters/src/index.ts"],
       "@dashboard-generator/layout": ["packages/layout/src/index.ts"],
       "@dashboard-generator/widgets": ["packages/widgets/src/index.ts"],
-      "@dashboard-generator/react": ["packages/renderer/src/index.ts"]
+      "@dashboard-generator/react": ["packages/renderer/src/index.ts"],
+      "@dashboard-generator/playground": ["packages/playground/src/index.ts"]
     }
   }
 }

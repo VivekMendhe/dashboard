@@ -1,5 +1,15 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
-  "workspaceLayout": { "appsDir": "apps", "libsDir": "packages" },
-  "namedInputs": { "default": ["{projectRoot}/**/*", "sharedGlobals"], "sharedGlobals": [] }
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "packages"
+  },
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
+    "sharedGlobals": []
+  },
+  "analytics": false
 }

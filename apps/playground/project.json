@@ -1,0 +1,8 @@
+{
+  "name":"playground", "root":"apps/playground", "sourceRoot":"apps/playground/src", "projectType":"application",
+  "targets": {
+    "serve": { "executor":"@nx/vite:dev-server", "defaultConfiguration":"development", "options":{"buildTarget":"playground:build"} },
+    "build": { "executor":"nx:run-commands", "outputs":["{workspaceRoot}/dist/apps/playground"], "options":{"command":"npx vite build --config apps/playground/vite.config.ts"} },
+    "test": { "executor":"@nx/vite:test", "options":{"configFile":"apps/playground/vite.config.ts","passWithNoTests":true} }
+  }
+}
