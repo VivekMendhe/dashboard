@@ -17,4 +17,8 @@ Open the Playground and edit `apps/playground/src/dashboard-config.ts`. Public p
 - `renderer`: React provider and dashboard renderer
 - `widgets`: built-in data visualization and content widgets
 - `layout`, `theme`, `filters`, `datasource`: independently scoped framework services
+
+## Production contracts
+
+The framework retains its original JSON schema while adding optional reusable datasets, typed widget bindings, responsive positions, revisioned dashboard persistence, workspace roles, and a server-side data gateway contract. See [the quick start](docs/quick-start.md) for migration-safe examples and security guidance.
 # dashboard
